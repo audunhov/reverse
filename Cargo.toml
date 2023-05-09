@@ -1,12 +1,12 @@
 [package]
 name = "revstr"
 version = "1.0.0"
-edition = "2023"
-authors= ["Audun Hammer Hovda <hammerhovda@gmail.com>"]
-license= "MIT OR Apache-2.0"
-description="Simply reverses strings"
-homepage=
-documentation=
-repository=
+edition = "2021"
+authors = ["Audun Hammer Hovda <hammerhovda@gmail.com>"]
+license = "MIT OR Apache-2.0"
+description = "Simply reverses strings"
+homepage = "https://github.com/audunhov/revstr"
+documentation = "https://github.com/audunhov/revstr"
+repository = "https://github.com/audunhov/revstr"
 
 [dependencies]
