@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "reverse"
-version = "0.1.0"
+name = "revstr"
+version = "1.0.0"
