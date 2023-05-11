@@ -1,10 +1,14 @@
-use std::env;
+use clap::Parser;
+
+#[derive(Parser, Debug)]
+struct Args {
+    string: String,
+}
 
 fn main() {
-    for argument in env::args().skip(1) {
-        let reversed = reverse(argument);
-        println!("{}", reversed);
-    }
+    let args = Args::parse();
+    let reversed = reverse(args.string);
+    println!("{}", reversed);
 }
 
 fn reverse(string: String) -> String {

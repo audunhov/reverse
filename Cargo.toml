@@ -1,6 +1,6 @@
 [package]
 name = "revstr"
-version = "1.0.1"
+version = "1.0.2"
 edition = "2021"
 authors = ["Audun Hammer Hovda <hammerhovda@gmail.com>"]
 license = "MIT OR Apache-2.0"
@@ -10,3 +10,4 @@ documentation = "https://github.com/audunhov/revstr"
 repository = "https://github.com/audunhov/revstr"
 
 [dependencies]
+clap = { version = "4.2.7", features = ["derive"] }
